@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 #^syntax detection
 
-Forge "https://forgeapi.puppetlabs.com"
+forge 'https://forgeapi.puppetlabs.com'
 
 mod 'puppetlabs-ntp'
 mod 'pupperlabs-apache', '2.3.0'
